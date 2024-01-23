@@ -25,4 +25,4 @@ jobs:
       run: python -m unittest discover -v
     
     - name: cat logs
-      run: cat $GITHUB_WORKSPACE/*.log
+      run: ls -a $GITHUB_WORKSPACE
